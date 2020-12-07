@@ -1,12 +1,10 @@
 /*<!--For X-small device-->*/
 
 @media (max-width: 767px) {
-    #owner .image{
-    min-width: 80px; 
-}
-#owner .image{
-    min-width: 80px; 
-    min-height: 80px; 
+    
+#owner .image img{
+    width: 80px; 
+    height: 80px; 
 }
 }
 
@@ -14,12 +12,10 @@
 /*<!--For small device-->*/
 
 @media only screen and (min-width:768px) and (max-width: 991px) {
-   #owner .image{
-    min-width: 90px; 
-}
-#owner .image{
-    min-width: 90px; 
-    min-height: 90px; 
+  
+#owner .image img{
+    width: 90px; 
+    height: 90px; 
 }
 }
 

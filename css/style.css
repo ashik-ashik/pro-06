@@ -185,9 +185,9 @@
 #owner .image{
     min-width: 110px; 
 }
-#owner .image{
-    min-width: 110px; 
-    min-height: 110px; 
+#owner .image img{
+    width: 110px; 
+    height: 110px; 
 }
 /*  owner Section CSS end */
 
