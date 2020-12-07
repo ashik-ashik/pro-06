@@ -5,6 +5,32 @@
 
 
 
+/* go to top cSS start */
+.gototop{
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    display: none;
+}
+.gototop .bx{
+    font-size: 45px;
+    color: #ffffffa2;
+    background: #03c01c77;
+    font-weight: 100;
+    cursor: pointer;
+    transition: ease-in-out .4s;
+}
+.gototop .bx:hover{
+    font-size: 45px;
+    color: #fff;
+    background: #03c01c;
+    font-weight: 100;
+    cursor: pointer;
+}
+/* go to top cSS end */
+
+
+
 /*  top bar Section CSS start */
 /*  top bar Section CSS end */
 
