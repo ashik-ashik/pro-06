@@ -1,0 +1,315 @@
+
+
+/* common cSS start */
+/* common cSS end */
+
+
+
+/*  top bar Section CSS start */
+/*  top bar Section CSS end */
+
+
+
+/*  top contact bar Section CSS start */
+.top-contact-bar .col-md-6 .top-con-icon{
+    font-size: 20px;
+    transition: ease-in-out .5s;
+}
+.top-contact-bar .col-md-6:hover .top-con-icon{
+    background: #000 !important;
+    color: #fff !important;
+}
+/*  top contact bar Section CSS end */
+
+
+
+/*  hero Section CSS start */
+.hero{
+    background: url(../img/bg-33.jpg) center center no-repeat;
+    background-size: cover;
+}
+.image-overlay{
+    width: 100%;
+    height: 100%;
+    background: #0000009a;
+}
+.hero .hero-contact .hero-btn{
+    border: 2px solid #fff;
+    border-radius: 13px;
+    font-size: 19px;
+    transition: ease-in-out .4s;
+}
+.hero .hero-contact .hero-btn:hover{
+    border: 2px solid #000;
+    background: #000;
+}
+
+.hero-overlap .image-box .image{
+    position: relative;
+}
+.hero-overlap .image-box .image .overlay{
+    position: absolute;
+    width: 100%;
+    height: 0%;
+    bottom: 0;
+    left: 0;
+    background: #0000008c;
+    /* visibility: hidden; */
+    transition: ease-in-out .4s;
+}
+.hero-overlap .image-box .image .overlay .bx{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    color: #fff;
+    visibility: hidden;
+}
+.hero-overlap .image-box .image:hover .overlay{
+    /* visibility: visible; */
+    height: 100%;
+}
+.hero-overlap .image-box .image:hover .overlay .bx{
+    visibility: visible;
+    transition-delay: .3s;
+}
+    .hero-overlap .image-box .image-content{
+    background: #000;
+}
+/*  hero Section CSS end */
+
+
+
+/*  demo-section-1 Section CSS start */
+#demo-section-1{
+    background: url(../img/bg-40.jpg) center center no-repeat;
+    background-size: cover;
+}
+#demo-section-1 .box .bx{
+    transition: ease-in-out .5s;
+    font-size: 25px;
+}
+#demo-section-1 .box:hover .bx{
+    background: #000 !important;
+    color: #fff !important;   
+}
+#demo-section-1 .overlay {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 100%;
+      width: 100%;
+      opacity: 0;
+      transition: .5s ease;
+      background-color: #0000008c;
+    }
+
+#demo-section-1 .demo:hover .overlay {
+    opacity: 1;
+}
+
+#demo-section-1 .demo .overlay .icon {
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/*  demo-section-1 Section CSS end */
+
+
+
+/* Service Section CSS start */
+#service .bx{
+    font-size: 50px;
+}
+#service .card:hover{
+    transition: .4s;
+}
+#service .card:hover{
+    background: #f8f8f8;
+}
+#service .card:hover .bx{
+    color: #e40303;
+}
+
+/* Service Section CSS end */
+
+
+
+/*   gallery Section CSS start */
+#gallery .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #000000a6;
+  }
+
+#gallery .demo:hover .overlay {
+  opacity: 1;
+}
+
+#gallery .demo .overlay .icon {
+  color: white;
+  font-size: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/*   gallery Section CSS end */
+
+
+
+/*  owner Section CSS start */
+#owner{
+    background: url(../img/bg-52.jpg) fixed center center no-repeat;
+    background-size: cover;
+}
+#owner .image{
+    min-width: 110px; 
+}
+#owner .image{
+    min-width: 110px; 
+    min-height: 110px; 
+}
+/*  owner Section CSS end */
+
+
+
+/*  portfolio Section CSS start */
+#portfolio .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #000000a6;
+  }
+
+#portfolio .demo:hover .overlay {
+  opacity: 1;
+}
+
+#portfolio .demo .overlay .icon {
+  color: white;
+  font-size: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/*  portfolio Section CSS end */
+
+
+
+/* footer Section CSS start */
+#footer{
+    background: url(../img/bg-33.jpg) fixed center center no-repeat;
+    background-size: cover;
+}
+#footer .image-overlay{
+    background: #000000b9;
+}
+#footer .bx{
+    font-size: 21px;
+    background: #dddddd8f;
+    color: #444;
+    transition: ease-in-out .5s;
+}
+#footer .bx:hover{
+    color: #ffffff;
+}
+#footer .bxl-facebook-square:hover{
+    background: #0a36f8;
+}
+#footer .bxl-twitter:hover{
+    background: #0aadf8;
+}
+#footer .bxl-google-plus:hover{
+    background: #e40303;
+}
+#footer .bxl-linkedin-square:hover{
+    background: #037fe4;
+}
+#footer .bxl-github:hover{
+    background: #0f181f;
+}
+
+#footer-gallery .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #000000a6;
+  }
+
+#footer-gallery .demo:hover .overlay {
+  opacity: 1;
+}
+#footer-gallery .demo img {
+  transition: .5s;
+}
+#footer-gallery .demo:hover img {
+  transform: scale(1.4) rotate(20deg);
+}
+
+#footer-gallery .demo .overlay .bx{
+    background: transparent;
+    color: #ddd;
+}
+#footer-gallery .demo .overlay .icon {
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+#footer .footer-menu .bx-home{
+    background: none;
+   font-size: 30px;
+   color: #fff;
+   transition: ease-in-out .4s;
+}
+#footer .footer-menu a{
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+    transition: ease-in-out .4s;
+}
+#footer .footer-menu .bx-home:hover,
+#footer .footer-menu a:hover{
+    color: #00df1e;
+}
+/* footer Section CSS end */
